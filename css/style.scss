@@ -1,0 +1,34 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$red:#ff0000;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+section#main{
+  width: 500px;
+  margin: 0px auto;
+}
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+
+@mixin border($border) {
+  border: $border;
+}
+@mixin padding($padding) {
+  padding: $padding;
+
+}
+div#section{
+    @include border-radius(10px);
+    @include border(1px solid #ddd);
+    @include padding(10px);
+    background: $red;
+     &:hover{
+       animation: animationd 5s infinite;
+
+    }
+}

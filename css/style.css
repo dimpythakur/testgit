@@ -1,0 +1,17 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+section#main {
+  width: 500px;
+  margin: 0px auto; }
+
+div#section {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background: #ff0000; }
+  div#section:hover {
+    animation: animationd 5s infinite; }
+
+/*# sourceMappingURL=style.css.map */
