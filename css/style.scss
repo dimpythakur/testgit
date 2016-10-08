@@ -23,12 +23,16 @@ section#main{
 
 }
 div#section{
+    height: 100px;
+    width: 100px;
     @include border-radius(10px);
     @include border(1px solid #ddd);
     @include padding(10px);
     background: $red;
+    transition: all .5s ease-in .5s;
      &:hover{
-       animation: animationd 5s infinite;
-
+       height: 200px;
+       width: 200px;
+       transition: all .5s ease-out .5s;
     }
 }

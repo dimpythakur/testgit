@@ -7,11 +7,16 @@ section#main {
   margin: 0px auto; }
 
 div#section {
+  height: 100px;
+  width: 100px;
   border-radius: 10px;
   border: 1px solid #ddd;
   padding: 10px;
-  background: #ff0000; }
+  background: #ff0000;
+  transition: all .5s ease-in .5s; }
   div#section:hover {
-    animation: animationd 5s infinite; }
+    height: 200px;
+    width: 200px;
+    transition: all .5s ease-out .5s; }
 
 /*# sourceMappingURL=style.css.map */
